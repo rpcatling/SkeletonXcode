@@ -10,4 +10,5 @@
 
 @interface SkeletonViewController : UIViewController
 
+// a comment
 @end
