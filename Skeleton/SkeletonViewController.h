@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
+// a conflicting comment
 @interface SkeletonViewController : UIViewController
 
 @end
