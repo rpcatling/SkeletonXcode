@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		47C3A747156B9D9B00EC0FE4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47C3A746156B9D9B00EC0FE4 /* UIKit.framework */; };
+		47C3A749156B9D9B00EC0FE4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47C3A748156B9D9B00EC0FE4 /* Foundation.framework */; };
+		47C3A74B156B9D9B00EC0FE4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47C3A74A156B9D9B00EC0FE4 /* CoreGraphics.framework */; };
+		47C3A751156B9D9B00EC0FE4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 47C3A74F156B9D9B00EC0FE4 /* InfoPlist.strings */; };
+		47C3A753156B9D9B00EC0FE4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 47C3A752156B9D9B00EC0FE4 /* main.m */; };
+		47C3A757156B9D9B00EC0FE4 /* SkeletonAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 47C3A756156B9D9B00EC0FE4 /* SkeletonAppDelegate.m */; };
+		47C3A75A156B9D9B00EC0FE4 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47C3A758156B9D9B00EC0FE4 /* MainStoryboard.storyboard */; };
+		47C3A75D156B9D9B00EC0FE4 /* SkeletonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47C3A75C156B9D9B00EC0FE4 /* SkeletonViewController.m */; };
+		47C3A765156B9D9B00EC0FE4 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47C3A764156B9D9B00EC0FE4 /* SenTestingKit.framework */; };
+		47C3A766156B9D9B00EC0FE4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47C3A746156B9D9B00EC0FE4 /* UIKit.framework */; };
+		47C3A767156B9D9B00EC0FE4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47C3A748156B9D9B00EC0FE4 /* Foundation.framework */; };
+		47C3A76F156B9D9B00EC0FE4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 47C3A76D156B9D9B00EC0FE4 /* InfoPlist.strings */; };
+		47C3A772156B9D9B00EC0FE4 /* SkeletonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 47C3A771156B9D9B00EC0FE4 /* SkeletonTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		47C3A768156B9D9B00EC0FE4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 47C3A739156B9D9B00EC0FE4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47C3A741156B9D9B00EC0FE4;
+			remoteInfo = Skeleton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		47C3A742156B9D9B00EC0FE4 /* Skeleton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Skeleton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		47C3A746156B9D9B00EC0FE4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		47C3A748156B9D9B00EC0FE4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		47C3A74A156B9D9B00EC0FE4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		47C3A74E156B9D9B00EC0FE4 /* Skeleton-Info.plist */ = {isa = PBXFileReference; path = "Skeleton-Info.plist"; sourceTree = "<group>"; };
+		47C3A750156B9D9B00EC0FE4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		47C3A752156B9D9B00EC0FE4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		47C3A754156B9D9B00EC0FE4 /* Skeleton-Prefix.pch */ = {isa = PBXFileReference; path = "Skeleton-Prefix.pch"; sourceTree = "<group>"; };
+		47C3A755156B9D9B00EC0FE4 /* SkeletonAppDelegate.h */ = {isa = PBXFileReference; path = SkeletonAppDelegate.h; sourceTree = "<group>"; };
+		47C3A756156B9D9B00EC0FE4 /* SkeletonAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SkeletonAppDelegate.m; sourceTree = "<group>"; };
+		47C3A759156B9D9B00EC0FE4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		47C3A75B156B9D9B00EC0FE4 /* SkeletonViewController.h */ = {isa = PBXFileReference; path = SkeletonViewController.h; sourceTree = "<group>"; };
+		47C3A75C156B9D9B00EC0FE4 /* SkeletonViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SkeletonViewController.m; sourceTree = "<group>"; };
+		47C3A763156B9D9B00EC0FE4 /* SkeletonTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkeletonTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		47C3A764156B9D9B00EC0FE4 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		47C3A76C156B9D9B00EC0FE4 /* SkeletonTests-Info.plist */ = {isa = PBXFileReference; path = "SkeletonTests-Info.plist"; sourceTree = "<group>"; };
+		47C3A76E156B9D9B00EC0FE4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		47C3A770156B9D9B00EC0FE4 /* SkeletonTests.h */ = {isa = PBXFileReference; path = SkeletonTests.h; sourceTree = "<group>"; };
+		47C3A771156B9D9B00EC0FE4 /* SkeletonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SkeletonTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		47C3A73F156B9D9B00EC0FE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47C3A747156B9D9B00EC0FE4 /* UIKit.framework in Frameworks */,
+				47C3A749156B9D9B00EC0FE4 /* Foundation.framework in Frameworks */,
+				47C3A74B156B9D9B00EC0FE4 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47C3A75F156B9D9B00EC0FE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47C3A765156B9D9B00EC0FE4 /* SenTestingKit.framework in Frameworks */,
+				47C3A766156B9D9B00EC0FE4 /* UIKit.framework in Frameworks */,
+				47C3A767156B9D9B00EC0FE4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		47C3A737156B9D9B00EC0FE4 = {
+			isa = PBXGroup;
+			children = (
+				47C3A74C156B9D9B00EC0FE4 /* Skeleton */,
+				47C3A76A156B9D9B00EC0FE4 /* SkeletonTests */,
+				47C3A745156B9D9B00EC0FE4 /* Frameworks */,
+				47C3A743156B9D9B00EC0FE4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		47C3A743156B9D9B00EC0FE4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				47C3A742156B9D9B00EC0FE4 /* Skeleton.app */,
+				47C3A763156B9D9B00EC0FE4 /* SkeletonTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		47C3A745156B9D9B00EC0FE4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				47C3A746156B9D9B00EC0FE4 /* UIKit.framework */,
+				47C3A748156B9D9B00EC0FE4 /* Foundation.framework */,
+				47C3A74A156B9D9B00EC0FE4 /* CoreGraphics.framework */,
+				47C3A764156B9D9B00EC0FE4 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		47C3A74C156B9D9B00EC0FE4 /* Skeleton */ = {
+			isa = PBXGroup;
+			children = (
+				47C3A755156B9D9B00EC0FE4 /* SkeletonAppDelegate.h */,
+				47C3A756156B9D9B00EC0FE4 /* SkeletonAppDelegate.m */,
+				47C3A758156B9D9B00EC0FE4 /* MainStoryboard.storyboard */,
+				47C3A75B156B9D9B00EC0FE4 /* SkeletonViewController.h */,
+				47C3A75C156B9D9B00EC0FE4 /* SkeletonViewController.m */,
+				47C3A74D156B9D9B00EC0FE4 /* Supporting Files */,
+			);
+			path = Skeleton;
+			sourceTree = "<group>";
+		};
+		47C3A74D156B9D9B00EC0FE4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				47C3A74E156B9D9B00EC0FE4 /* Skeleton-Info.plist */,
+				47C3A74F156B9D9B00EC0FE4 /* InfoPlist.strings */,
+				47C3A752156B9D9B00EC0FE4 /* main.m */,
+				47C3A754156B9D9B00EC0FE4 /* Skeleton-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		47C3A76A156B9D9B00EC0FE4 /* SkeletonTests */ = {
+			isa = PBXGroup;
+			children = (
+				47C3A770156B9D9B00EC0FE4 /* SkeletonTests.h */,
+				47C3A771156B9D9B00EC0FE4 /* SkeletonTests.m */,
+				47C3A76B156B9D9B00EC0FE4 /* Supporting Files */,
+			);
+			path = SkeletonTests;
+			sourceTree = "<group>";
+		};
+		47C3A76B156B9D9B00EC0FE4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				47C3A76C156B9D9B00EC0FE4 /* SkeletonTests-Info.plist */,
+				47C3A76D156B9D9B00EC0FE4 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		47C3A741156B9D9B00EC0FE4 /* Skeleton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47C3A775156B9D9B00EC0FE4 /* Build configuration list for PBXNativeTarget "Skeleton" */;
+			buildPhases = (
+				47C3A73E156B9D9B00EC0FE4 /* Sources */,
+				47C3A73F156B9D9B00EC0FE4 /* Frameworks */,
+				47C3A740156B9D9B00EC0FE4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Skeleton;
+			productName = Skeleton;
+			productReference = 47C3A742156B9D9B00EC0FE4 /* Skeleton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		47C3A762156B9D9B00EC0FE4 /* SkeletonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47C3A778156B9D9B00EC0FE4 /* Build configuration list for PBXNativeTarget "SkeletonTests" */;
+			buildPhases = (
+				47C3A75E156B9D9B00EC0FE4 /* Sources */,
+				47C3A75F156B9D9B00EC0FE4 /* Frameworks */,
+				47C3A760156B9D9B00EC0FE4 /* Resources */,
+				47C3A761156B9D9B00EC0FE4 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				47C3A769156B9D9B00EC0FE4 /* PBXTargetDependency */,
+			);
+			name = SkeletonTests;
+			productName = SkeletonTests;
+			productReference = 47C3A763156B9D9B00EC0FE4 /* SkeletonTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		47C3A739156B9D9B00EC0FE4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Skeleton;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 47C3A73C156B9D9B00EC0FE4 /* Build configuration list for PBXProject "Skeleton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 47C3A737156B9D9B00EC0FE4;
+			productRefGroup = 47C3A743156B9D9B00EC0FE4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				47C3A741156B9D9B00EC0FE4 /* Skeleton */,
+				47C3A762156B9D9B00EC0FE4 /* SkeletonTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		47C3A740156B9D9B00EC0FE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47C3A751156B9D9B00EC0FE4 /* InfoPlist.strings in Resources */,
+				47C3A75A156B9D9B00EC0FE4 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47C3A760156B9D9B00EC0FE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47C3A76F156B9D9B00EC0FE4 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		47C3A761156B9D9B00EC0FE4 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		47C3A73E156B9D9B00EC0FE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47C3A753156B9D9B00EC0FE4 /* main.m in Sources */,
+				47C3A757156B9D9B00EC0FE4 /* SkeletonAppDelegate.m in Sources */,
+				47C3A75D156B9D9B00EC0FE4 /* SkeletonViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47C3A75E156B9D9B00EC0FE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47C3A772156B9D9B00EC0FE4 /* SkeletonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		47C3A769156B9D9B00EC0FE4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47C3A741156B9D9B00EC0FE4 /* Skeleton */;
+			targetProxy = 47C3A768156B9D9B00EC0FE4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		47C3A74F156B9D9B00EC0FE4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47C3A750156B9D9B00EC0FE4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		47C3A758156B9D9B00EC0FE4 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47C3A759156B9D9B00EC0FE4 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		47C3A76D156B9D9B00EC0FE4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47C3A76E156B9D9B00EC0FE4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		47C3A773156B9D9B00EC0FE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		47C3A774156B9D9B00EC0FE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		47C3A776156B9D9B00EC0FE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Skeleton/Skeleton-Prefix.pch";
+				INFOPLIST_FILE = "Skeleton/Skeleton-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		47C3A777156B9D9B00EC0FE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Skeleton/Skeleton-Prefix.pch";
+				INFOPLIST_FILE = "Skeleton/Skeleton-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		47C3A779156B9D9B00EC0FE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Skeleton.app/Skeleton";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Skeleton/Skeleton-Prefix.pch";
+				INFOPLIST_FILE = "SkeletonTests/SkeletonTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		47C3A77A156B9D9B00EC0FE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Skeleton.app/Skeleton";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Skeleton/Skeleton-Prefix.pch";
+				INFOPLIST_FILE = "SkeletonTests/SkeletonTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		47C3A73C156B9D9B00EC0FE4 /* Build configuration list for PBXProject "Skeleton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47C3A773156B9D9B00EC0FE4 /* Debug */,
+				47C3A774156B9D9B00EC0FE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47C3A775156B9D9B00EC0FE4 /* Build configuration list for PBXNativeTarget "Skeleton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47C3A776156B9D9B00EC0FE4 /* Debug */,
+				47C3A777156B9D9B00EC0FE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		47C3A778156B9D9B00EC0FE4 /* Build configuration list for PBXNativeTarget "SkeletonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47C3A779156B9D9B00EC0FE4 /* Debug */,
+				47C3A77A156B9D9B00EC0FE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 47C3A739156B9D9B00EC0FE4 /* Project object */;
+}
