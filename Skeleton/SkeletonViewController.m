@@ -33,4 +33,8 @@
     return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
 }
 
+-(void)randomMethod {
+    // random
+}
+
 @end
